@@ -1,1 +1,2 @@
 # SVM-SMO-Implementation
+This project contains the implementation of John Platt's Paper, "Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines". In this paper an efficient algorithm for training SVM's is proposed. The main idea is that while training SVM's requires solving a very large quadratic programming optimization problem this alhgorithm breaks it into a series of smaller QP problemsthat can be solved analytically.
